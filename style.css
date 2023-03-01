@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+header, footer {
+    height: 150px;
+    width: 100%;
+    border: solid black 2px;
+    clear: both;
+}
+
+.main {
+    height: 350px;
+    width: 100%;
+    border: solid black 2px;
+}
+
+.smallBox {
+    height: 350px;
+    width: 30%;
+    border: solid black 2px;
+    float: left;
+}
+
+.largeBox {
+    height: 350px;
+    width: 70%;
+    border: solid black 2px;
+    float: left;
+}
